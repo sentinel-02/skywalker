@@ -14,7 +14,7 @@ options = (("A. Nikola Tesla", "B. Albert Einstein", "C. Robert J. Oppenheimer",
            ("1947", "1932", "1954", "1912"),
            ("A. Superposition", "B. Middle position", "C. Ordinary position", "D. Same position"))
 
-answers = ("C", "B", "D", "A", "A")
+answers = ("C", "B", "D", "A", "A") #Correct answers
 guesses = []
 score = 0
 question_num = 0
@@ -51,5 +51,5 @@ for guess in guesses:
 print()
 
 
-score = int(score/ len(questions) * 100)
-print (f"Your score is : {score}%")
+score = int(score/ len(questions) * 100)     #Used int function with mathematical formula of percentage which returns a numeric value in form of percentage.
+print (f"Your score is : {score}%")         
